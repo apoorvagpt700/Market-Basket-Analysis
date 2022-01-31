@@ -22,16 +22,16 @@ In fact, market basket analysis is being applied outside retail. Therefore, it's
 ## Association Rules
 Data for market basket analysis typically comes from point-of-sale (POS) transaction data or invoices. These usually include list of products purchased, unit price and quantity of each item. Association analysis is a generalization of applications, like market basket analysis, and is now commonly applied in clickstream analysis, cross-selling recommendation engines, and information security. Association analysis is an unsupervised data science technique where there is no target variable to predict. Instead, the algorithm reviews each transaction containing a number of items (products) and extracts useful relationship patterns among the items in the form of rules. The challenge in association analysis is to differentiate a significant observation against unscrupulous rules. The Apriori and Frequent Pattern Growth algorithms offer efficient approaches to extract these rules from large datasets in the transaction logs.
 
-An association is an expression of the form
+An association is an expression of the form\
 Body → head (support, confidence)
-
-Following this form, an example of an association rule is the following:
-
-If a customer buys a flashlight, he/she will buy batteries (250, 81%).
-
-More than one dimension can be used to define the body portion of the association rule. For example, the rule might be expanded as the following:
-
-If a customer is a plumber and buys a flashlight, he/she will buy batteries (150, 89%).
+<br></br>
+Following this form, an example of an association rule is the following:\
+<br></br>
+If a customer buys a flashlight, he/she will buy batteries (250, 81%).\
+<br></br>
+More than one dimension can be used to define the body portion of the association rule. For example, the rule might be expanded as the following:\
+<br></br>
+If a customer is a plumber and buys a flashlight, he/she will buy batteries (150, 89%).\
 
 
 
