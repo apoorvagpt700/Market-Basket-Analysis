@@ -24,12 +24,10 @@ Data for market basket analysis typically comes from point-of-sale (POS) transac
 
 An association is an expression of the form\
 *Body → head (support, confidence)*\
-<br></br>
 Following this form, an example of an association rule is the following:\
 *If a customer buys a flashlight, he/she will buy batteries (250, 81%)*\
-<br></br>
 More than one dimension can be used to define the body portion of the association rule. For example, the rule might be expanded as the following:\
 *If a customer is a plumber and buys a flashlight, he/she will buy batteries (150, 89%).*\
-
+![Alt Image text](/relative/path/to/association rule.png?raw=true "Optional Title")
 
 
