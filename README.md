@@ -32,3 +32,16 @@ More than one dimension can be used to define the body portion of the associatio
 
 ![association rule](https://user-images.githubusercontent.com/60054765/152406274-9d72cc69-7d74-447c-a7a0-b5953205cbdb.PNG)
 
+
+## How to measure association rules?
+
+### 1. Support: 
+Given all transactions, support is the percentage of transactions that contain a given item combination. Often combination that fall below a support threshold are ignored in further analysis. When dataset has thousands of items and millions of transactions, a threshold of 0.01% is reasonable.
+
+### 2.Confidence:
+Given item A is purchased, what's the chance that customer will buy item C? This question is answered by the confidence measure. Thus, rather than looking at just probability of purchasing item C (which support does), confidence looks at conditional probability.
+
+### 3.Lift:
+Suppose data shows that items A and C are occurring together in many transactions. Do A and C have an association or are they occurring together purely by chance? This question is answered by the lift measure.
+
+![measure](https://user-images.githubusercontent.com/60054765/152406930-1076690e-57a6-4fa8-95dc-c64bffde98c0.PNG)
