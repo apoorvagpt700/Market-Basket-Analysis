@@ -1,4 +1,6 @@
 # Overview
+![customer](https://user-images.githubusercontent.com/60054765/152408993-b095c2ad-8cda-4f38-af55-ded461d8b280.PNG)
+
 Market basket analysis is a data mining technique, generally used in the retail industry in an effort to understand purchasing behaviour. It looks for combinations of items that frequently occur in the same transaction. In other words, it gives insights into items that may have some association or affinity.
 
 For example, customers purchasing flour and sugar are also likely to buy eggs. The outcome of the analysis is to derive a set of rules that can be understood as "if this, then that". Retailers can use these insights to do product placements or offer discounts.
